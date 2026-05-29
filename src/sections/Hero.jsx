@@ -1,5 +1,8 @@
 import { motion } from "framer-motion";
 
+// IMPORT IMAGE
+import coderImage from "../assets/Coder.jpg";
+
 const Hero = () => {
   return (
     <section
@@ -83,7 +86,7 @@ const Hero = () => {
           <div className="w-[240px] h-[240px] sm:w-[300px] sm:h-[300px] lg:w-[380px] lg:h-[380px] rounded-full bg-gradient-to-r from-violet-500 via-blue-500 to-sky-400 p-1 shadow-[0_0_60px_rgba(59,130,246,0.35)]">
 
             <img
-              src={import.meta.env.BASE_URL + "src/assets/Coder.jpg"}
+              src={coderImage}
               alt="Debasmita Jana"
               className="w-full h-full object-cover rounded-full"
             />
