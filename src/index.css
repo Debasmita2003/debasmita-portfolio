@@ -1,0 +1,68 @@
+@import "tailwindcss";
+
+:root {
+
+  /* Dark Mode */
+  --bg-dark: #050816;
+  --text-dark: #ffffff;
+
+  /* Main Theme Colors */
+  --purple: #a855f7;
+  --violet: #7c3aed;
+  --sky-blue: #38bdf8;
+  --icy-blue: #bfdbfe;
+  --royal-blue: #2563eb;
+
+}
+
+html {
+  scroll-behavior: smooth;
+}
+
+body {
+  font-family: 'Poppins', sans-serif;
+}
+@keyframes float1 {
+  0% {
+    transform: translate(0px, 0px);
+  }
+
+  50% {
+    transform: translate(50px, 40px);
+  }
+
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+@keyframes float2 {
+  0% {
+    transform: translate(0px, 0px);
+  }
+
+  50% {
+    transform: translate(-40px, -30px);
+  }
+
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+
+@keyframes float3 {
+  0% {
+    transform: translate(0px, 0px);
+  }
+
+  50% {
+    transform: translate(30px, -50px);
+  }
+
+  100% {
+    transform: translate(0px, 0px);
+  }
+}
+* {
+  cursor: none;
+}
