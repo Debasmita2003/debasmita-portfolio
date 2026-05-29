@@ -5,10 +5,15 @@ import {
   FaExternalLinkAlt,
 } from "react-icons/fa";
 
+// IMPORT IMAGES
+import portfolioImg from "../assets/Portfolio.jpg";
+import memoziImg from "../assets/Memozi.jpg";
+import uptoskillImg from "../assets/Uptoskill.jpg";
+
 const projects = [
   {
     title: "Modern Portfolio",
-    image: "/src/assets/Portfolio.jpg",
+    image: portfolioImg,
 
     description:
       "A modern responsive developer portfolio with animations, glassmorphism.",
@@ -21,7 +26,7 @@ const projects = [
 
   {
     title: "Memozi",
-    image: "/src/assets/Memozi.jpg",
+    image: memoziImg,
 
     description:
       "A modern productivity and learning platform designed to help users organize notes and bookmarks.",
@@ -34,7 +39,7 @@ const projects = [
 
   {
     title: "Uptoskill Hiring Dashboard",
-    image: "/src/assets/Uptoskill.jpg",
+    image: uptoskillImg,
 
     description:
       "A modern hiring dashboard for Uptoskill with real-time analytics and candidate management.",
@@ -52,7 +57,6 @@ const Projects = () => {
       id="projects"
       className="min-h-screen flex items-center justify-center px-6 py-20"
     >
-
       <div className="max-w-7xl mx-auto w-full">
 
         {/* Heading */}
@@ -62,7 +66,6 @@ const Projects = () => {
           transition={{ duration: 1 }}
           className="text-center mb-16"
         >
-
           <p className="text-sky-400 uppercase tracking-[4px] mb-4">
             My Projects
           </p>
@@ -73,7 +76,6 @@ const Projects = () => {
               {" "}Projects
             </span>
           </h2>
-
         </motion.div>
 
         {/* Project Cards */}
@@ -83,7 +85,6 @@ const Projects = () => {
 
             <motion.div
               key={index}
-
               initial={{ opacity: 0, y: 50 }}
               whileInView={{ opacity: 1, y: 0 }}
 
@@ -190,7 +191,6 @@ const Projects = () => {
         </div>
 
       </div>
-
     </section>
   );
 };
