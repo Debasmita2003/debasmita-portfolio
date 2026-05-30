@@ -20,8 +20,8 @@ const projects = [
 
     tech: ["React", "Tailwind", "Framer Motion"],
 
-    github: "https://github.com/",
-    live: "https://vercel.com/",
+    github: "https://github.com/Debasmita2003/debasmita-portfolio",
+    live: "https://debasmita-jana-portfolio.vercel.app/",
   },
 
   {
