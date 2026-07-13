@@ -33,7 +33,7 @@ const projects = [
 
     tech: ["React", "Next.js", "MongoDB"],
 
-    github: "https://github.com/",
+    github: "https://github.com/Debasmita2003/Memozi",
     live: "https://vercel.com/",
   },
 
