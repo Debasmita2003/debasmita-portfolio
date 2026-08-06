@@ -31,7 +31,7 @@ const projects = [
     description:
       "A modern productivity and learning platform designed to help users organize notes and bookmarks.",
 
-    tech: ["React", "Next.js", "MongoDB"],
+    tech: ["React", "Next.js", "PostgreSQL", "Tailwind"],
 
     github: "https://github.com/Debasmita2003/Memozi",
     live: "https://memozi-project.vercel.app/",
