@@ -34,7 +34,7 @@ const projects = [
     tech: ["React", "Next.js", "MongoDB"],
 
     github: "https://github.com/Debasmita2003/Memozi",
-    live: "https://vercel.com/",
+    live: "https://memozi-project.vercel.app/",
   },
 
   {
