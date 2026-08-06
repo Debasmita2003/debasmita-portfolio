@@ -29,7 +29,7 @@ const projects = [
     image: memoziImg,
 
     description:
-      "A modern productivity and learning platform designed to help users organize notes and bookmarks.",
+      "A modern productivity and learning platform designed to help users organize notes.",
 
     tech: ["React", "Next.js", "PostgreSQL", "Tailwind"],
 
