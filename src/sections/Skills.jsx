@@ -12,6 +12,7 @@ import {
 import {
   SiTailwindcss,
   SiMongodb,
+  SiMysql,
   SiPostgresql,
   SiExpress,
   SiNodedotjs,
@@ -57,6 +58,11 @@ const skills = [
     name: "MongoDB",
     icon: <SiMongodb />,
     gradient: "from-green-400 to-emerald-500",
+  },
+  {
+    name: "MySQL",
+    icon: <SiMysql />,
+    gradient: "from-purple-500 to-indigo-500",
   },
   {
     name: "PostgreSQL",
