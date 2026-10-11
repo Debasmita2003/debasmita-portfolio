@@ -12,6 +12,7 @@ import {
 import {
   SiTailwindcss,
   SiMongodb,
+  SiPostgresql,
   SiExpress,
   SiNodedotjs,
 } from "react-icons/si";
@@ -56,6 +57,11 @@ const skills = [
     name: "MongoDB",
     icon: <SiMongodb />,
     gradient: "from-green-400 to-emerald-500",
+  },
+  {
+    name: "PostgreSQL",
+    icon: <SiPostgresql />,
+    gradient: "from-blue-500 to-indigo-500",
   },
   {
     name: "GitHub",
