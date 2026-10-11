@@ -11,11 +11,14 @@ import {
 
 import {
   SiTailwindcss,
+  SiBootstrap,
+  SiNextdotjs,
   SiMongodb,
   SiMysql,
   SiPostgresql,
   SiExpress,
   SiNodedotjs,
+  SiVercel,
 } from "react-icons/si";
 
 const skills = [
@@ -43,6 +46,16 @@ const skills = [
     name: "Tailwind CSS",
     icon: <SiTailwindcss />,
     gradient: "from-sky-400 to-cyan-500",
+  },
+  {
+    name: "Bootstrap",
+    icon: <SiBootstrap />,
+    gradient: "from-purple-500 to-pink-500",
+  },
+  {
+    name: "Next.js",
+    icon: <SiNextdotjs />,
+    gradient: "from-gray-400 to-slate-500",
   },
   {
     name: "Node.js",
@@ -73,6 +86,11 @@ const skills = [
     name: "GitHub",
     icon: <FaGithub />,
     gradient: "from-violet-500 to-blue-500",
+  },
+  {
+    name: "Vercel",
+    icon: <SiVercel />,
+    gradient: "from-gray-500 to-gray-400",
   },
   {
     name: "Figma",
